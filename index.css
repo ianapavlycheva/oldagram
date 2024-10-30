@@ -3,3 +3,85 @@ body {
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #c6c6c6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: #c6c6c6;
+}
+
+.user-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.logo {
+  height: 33px;
+}
+
+.author-info {
+  padding: 10px 15px;
+}
+
+.post .author-info {
+  display: flex;
+  justify-content: start;
+}
+
+.avatar {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post .img {
+  width: 100%;
+}
+
+.icon {
+  width: 20px;
+  padding: 15px 0 0 15px;
+}
+
+.likes {
+  font-size: 0.8125rem;
+  font-weight: bold;
+  padding: 0 0 0 15px;
+}
+
+.comments {
+  font-size: 0.8125rem;
+  padding: 0 0 15px 15px;
+}
+
+.name {
+  font-weight: bold;
+  padding-top: 0px;
+}
+
+.post {
+  background-color: #ffffff;
+}
+
+.location {
+  font-size: 0.75rem;
+  padding-left: 10px;
+}
+
+.author-name {
+  font-size: 0.8125rem;
+  font-weight: bold;
+  padding-left: 10px;
+}
